@@ -13,24 +13,36 @@ class App extends React.Component {
     let { i } = this.state;
     if (i == 1) {
       Swal.fire({
-        text: 'Ada yg ultah ni ajg'
+        text: 'halo sasa 😀'
       }).then(() => this.setState({ i: 2 }))
     } else if (i == 2) {
       Swal.fire({
-        title: 'HBD BB!',
-        text: 'Semoga semoga semogi',
-        imageWidth: 201,
-        imageHeight: 251,
-        imageAlt: 'Custom image'
+        text: 'anywayy makasih sudah sabar kepada qU !!',
       }).then(() => this.setState({ i: 3 }))
     } else if (i == 3) {
       Swal.fire({
-        text: 'sukses Sehat selalu'
+        text: 'first of all happy birthday kembaran h+2'
       }).then(()=>this.setState({i:4}))
     } else if(i==4){
       Swal.fire({
-        text: 'Selamat untuk org ter asuu ni foto'
-      }).then(()=>this.setState({ pict: true }))
+        text: 'Semoga kedepanya tetap bisa menjadi sasa yang ku kenal 😊'
+      }).then(()=>this.setState({ i:5 }))
+    }else if (i == 5) {
+      Swal.fire({
+        text: 'semoga karirnya bisa lancar kedepanya,bisa banggain orang tua, dirimu, dan teman2 mu yg kamu sayang 🖤,pokonya semoga yang di semogakan tersemogakan 😀'
+      }).then(()=>this.setState({i:6}))
+    }else if(i==6){
+      Swal.fire({
+        text: 'kadonya nyusul ya maap bet anjay :v'
+      }).then(()=>this.setState({ i:7 }))
+    }else if(i==7){
+      Swal.fire({
+        text: 'stay humble artis tiktokku 😍'
+      }).then(()=>this.setState({ i:8 }))
+    }else if(i==8){
+      Swal.fire({
+        text: 'dah gitu aja hehe'
+      }).then(()=>this.setState({ i:8 }))
     }
   }
   render() {
